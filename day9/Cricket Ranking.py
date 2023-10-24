@@ -1,0 +1,21 @@
+t=int(input())
+for i in range(t):
+    k=b=0
+    r1,w1,c1=map(int,input().split())
+    r2,w2,c2=map(int,input().split())
+    if(r1>r2):
+        k=k+1
+    else:
+        b=b+1
+    if(w1>w2):
+        k=k+1
+    else:
+        b=b+1
+    if(c1>c2):
+        k=k+1
+    else:
+        b=b+1
+    if(b>k):
+        print("B")
+    else:
+        print("A")
