@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 5px;
+            
+        }
+        ol{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            font-size: 30px;
+            flex-basis: 60%;
+            color:rgb(223, 151, 57);
+            padding-left: 300px;
+            padding-right: 300px;
+            color: aliceblue;
+
+            text-decoration: none;
+        }
+        .nav a{
+            text-decoration: none;
+            color: black;
+        }
+        
+        h1{
+            text-align: center;
+        }
+
+        #stock{
+            background-image: url("file:///C:/Users/Asus/OneDrive/Desktop/krishiv's%20data/project/1st.jpg");
+            background-repeat: repeat-x;
+            border-radius: 20px;
+        }
+
+        p{
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: left;
+            color: aliceblue;
+        }
+        
+        .intro{
+            font-size: 30px;
+            color: aliceblue;
+            text-align: left;
+        }
+
+        .fst{
+            margin-top: 20px;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: aliceblue;
+            align-items: center;
+            display:inline-block;
+            margin-left: 120px;
+        }
+
+        .sec{
+            font-weight: 900;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            font-size: 40px;
+            padding-top: 50px;
+
+        }
+
+        .equity{
+            color: black;
+            display: flex;
+            justify-content: left;
+            gap: 5em;
+            padding: 30px;
+            
+        }
+        
+        #par{
+            color: black;
+        }
+        .equity img{
+            display: flex;
+            justify-content: right;
+            
+        }
+        #par1{
+            color: black;
+        }
+        .bse{
+            color: black;
+            display: flex;
+            justify-content: left;
+            gap: 3em;
+            padding-right: 20px;
+            margin-top: 40px ;
+            padding: 30px;
+        }
+        .bse img{
+            display: flex;
+            justify-content: right;
+            width: 40%;
+            height: 40%;
+            
+        }
+
+        .flex{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+        .flex > div {
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+        .flex a{
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+    <ol class="nav">
+        <a href="#">Stocks Trading</a>
+        <a href="#">NSE</a>
+        <a href="#">BSE</a>
+        <a href="#">SIP</a>
+        <a href="#">ETF's</a>
+    </ol>
+
+    <div>
+        <h1 style="font-size: 50px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Welcome To Your Own Market</h1>
+        <h1 style="font-size: 50px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">GROW MORE</h1>
+    </div>
+
+    <section id="stock">
+        <div>
+            <p><b>Are you ready to explore<br>The Mordern Day Buisness<br>"STOCK MARKET"</b></p>
+            <p class="intro">Here you learn about trading and importence of trading.<br>You can also analyse the live market here.</p>
+        </div>
+    </section>
+
+    <button class="fst"><a href="#">STOCK's</a></button>
+    <button class="fst">BSE</button>
+    <button class="fst">NSE</button>
+    <button class="fst">SIP</button>
+    <button class="fst">ETF's</button>
+
+    <div class="sec">
+        You may invest for long term in a company whose<br>FINANCIAL and TECHNICAL Performance is good.<br>
+        BY buying 'SHARES'.
+    </div>
+
+    <section class="equity">
+        <p id="par">Equity Trading</p>
+        <img src="file:///C:/Users/Asus/OneDrive/Desktop/krishiv's%20data/project/1st.jpg" alt="eoe">
+    </section>
+
+    <section class="bse">
+        <p id="par1">BSE'BomBay Stock Exchange</p>
+        <img src="file:///C:/Users/Asus/OneDrive/Desktop/krishiv's%20data/project/2nd.jpg" alt="eoe">
+    </section>
+
+
+    <section class="flex">
+        <div><a href="">equity</a></div>
+        <div><a href="">BSE</a></div>
+        <div><a href="">NSE</a></div>
+        <div><a href="">SIP</a></div>
+        <div><a href="">ETF</a></div>
+    </section>
+</body>
+</html>
